@@ -42,7 +42,7 @@ const config: GatsbyConfig = {
       },
       __key: 'content'
     },
-    'gatsby-transformer-remark',
+    { resolve: `gatsby-transformer-remark` },
   ]
 }
 
