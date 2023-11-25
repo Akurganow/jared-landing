@@ -1,6 +1,5 @@
 ---
 date: "2023-11-25"
-title: "Privacy Policy for Jared Web Extension"
 ---
 
 ## Introduction
