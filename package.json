@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-minimal-ts",
+  "name": "jared-landing",
   "version": "1.0.0",
   "private": true,
-  "description": "A Gatsby starter written in TypeScript with no plugins and a single welcome page.",
-  "author": "Jude Agboola",
+  "description": "jared-landing",
+  "author": "Alexander Kurganov",
   "keywords": [
     "gatsby"
   ],
@@ -15,9 +15,16 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
-  "license": "0BSD",
   "dependencies": {
     "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-plugin-sitemap": "^6.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "gatsby-transformer-remark": "^6.12.3",
+    "gatsby-transformer-sharp": "^5.12.3",
+    "modern-css-reset": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -25,6 +32,17 @@
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "typescript": "^5.1.6"
+    "@types/react-helmet": "^6.1.9",
+    "typescript": "^5.1.6",
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-import-resolver-webpack": "^0.13.4",
+    "eslint-plugin-formatjs": "^4.10.3",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.14"
   }
 }

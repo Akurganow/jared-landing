@@ -1,0 +1,78 @@
+@import './default-light-theme.css';
+@import './default-dark-theme.css';
+
+a {
+	color: var(--color-secondaryForeground);
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	min-height: 100vh;
+	margin-inline: auto;
+	margin-block: auto;
+	max-width: calc(768px - 4rem);
+}
+
+body {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1 + p {
+	margin: 1rem 0;
+}
+
+h2 + p {
+	margin: 0.825rem 0;
+}
+
+@media (max-width: 768px) {
+	main {
+		margin-inline: 2rem;
+		margin-block: 1rem;
+	}
+}
+
+:root {
+	--basic-fontSize: 13px;
+	--basic-layout-gap: 0.5rem;
+}
+
+body {
+	min-height: 100%;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: var(--basic-fontSize);
+	line-height: 1.4;
+	background-color: var(--area-page-background);
+	color: var(--area-page-foreground);
+}
+
+#root,
+#popup {
+	display: contents;
+}
+
+a {
+	color: var(--area-page-foreground);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--area-page-hoverForeground);
+}
+
+p, figure, blockquote, dl, dd {
+	margin-block: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-block-end: 1em;
+}
+
+a:focus-visible,
+button:focus-visible {
+	outline-color: transparent;
+}

@@ -1,0 +1,31 @@
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-primaryBackground: #202124;
+		--color-primaryForeground: #cccccc;
+		--color-primaryBorder: #606164;
+		--color-secondaryBackground: #35363a;
+		--color-secondaryForeground: #ffffff;
+		--color-tertiaryBackground: #2c2d31;
+		--color-tertiaryForeground: #cccccc;
+		--color-icon: #ffffff66;
+		--color-iconHover: #ffffff;
+		--color-danger: #f28b82;
+		--color-disabled-danger: #8d322a;
+		--color-warning: #f8b072;
+		--color-disabled-warning: #8f5624;
+		--color-notify: #fdd663;
+		--color-disabled-notify: #935825;
+		--color-success: #81c995;
+		--color-disabled-success: #3d6649;
+		--color-info: #8ab4f7;
+		--color-disabled-info: #285295;
+		--color-list: #c589f9;
+		--color-disabled-list: #65279b;
+		--color-personal: #ff8bcb;
+		--color-disabled-personal: #aa1868;
+
+		--area-button-default-background: var(--color-secondaryBackground);
+		--area-button-default-foreground: var(--color-secondaryForeground);
+		--area-button-default-border: var(--color-secondaryBackground);
+	}
+}
