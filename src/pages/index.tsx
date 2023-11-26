@@ -1,7 +1,7 @@
 import 'modern-css-reset'
 import * as React from 'react'
+import CommonHead from '../components/CommonHead'
 import type { HeadFC, PageProps } from 'gatsby'
-import '../styles/common.css'
 
 const IndexPage: React.FC<PageProps> = () => (
 	<main>
@@ -14,9 +14,11 @@ const IndexPage: React.FC<PageProps> = () => (
 			<li>📚 <strong>Bookmark Efficiency</strong>: Organize your bookmarks with precision and ease.</li>
 			<li>🕒 <strong>History, Reorganized</strong>: Navigate your browsing history like a pro, with intuitive and specialized sections.</li>
 			<li>💼 <strong>ITS &amp; VCS Integration</strong>: Seamlessly manage your Jira, YouTrack, GitHub, and GitLab links.</li>
-			<li>🧩 <strong>Customizable Layouts</strong>: Tailor your tabs to fit your workflow. It's your space, make it your own!</li>
+			<li>🧩 <strong>Customizable Layouts</strong>: Tailor your tabs to fit your workflow. It&apos;s your space, make it your own!</li>
 		</ul>
 		<p>🔗 Ready to upgrade your browsing? <a href="https://chrome.google.com/webstore/detail/jared/aafbpehebcbadcpmmmkjgednfoojpifa">Get Jared now on the Chrome Web Store!</a></p>
+		<p>👨‍💻 <strong>Attention Developers!</strong> Jared is an open-source project, and we welcome contributions from the developer community. Whether it&apos;s fixing bugs, adding new features, or improving the code, your input can make a big difference.</p>
+		<p>🔗 Interested in contributing? Check out the project on <a href="https://github.com/Akurganow/jared">GitHub</a> and join our growing community of developers!</p>
 	</main>
 )
 
@@ -24,7 +26,5 @@ export default IndexPage
 
 export const Head: HeadFC = () => <>
 	<title>Jared Web Extension</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+	<CommonHead />
 </>

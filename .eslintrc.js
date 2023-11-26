@@ -15,7 +15,6 @@ module.exports = {
 		es6: true,
 		browser: true,
 		jest: true,
-		webextensions: true
 	},
 	rules: {
 		'no-tabs': [0],

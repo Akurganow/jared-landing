@@ -31,6 +31,10 @@ h2 + p {
 	margin-block-start: 0.825rem;
 }
 
+p + p {
+	margin-block-start: 1rem;
+}
+
 a:focus-visible {
 	outline-color: var(--color-secondaryForeground);
 }
