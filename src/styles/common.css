@@ -14,14 +14,11 @@ body {
 	line-height: 1.4;
 	background-color: var(--area-page-background);
 	color: var(--area-page-foreground);
+	padding-block: 1rem;
 }
 
 p, figure, blockquote, dl, dd {
 	margin-block: 2em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	margin-block: 1em;
 }
 
 h1 + p {
@@ -38,6 +35,14 @@ p + p {
 
 li + li {
 	margin-block-start: 0.5rem;
+}
+
+ul {
+	padding-inline-start: 2rem;
+}
+
+strong {
+	font-weight: 600;
 }
 
 a:focus-visible {
