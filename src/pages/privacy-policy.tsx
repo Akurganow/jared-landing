@@ -1,7 +1,6 @@
 import 'modern-css-reset'
 import React from 'react'
 import {HeadFC, PageProps} from 'gatsby'
-import '../styles/common.css'
 
 const PrivacyPolicy: React.FC<PageProps> = () => (
         <main>
