@@ -36,6 +36,10 @@ p + p {
 	margin-block-start: 1rem;
 }
 
+li + li {
+	margin-block-start: 0.5rem;
+}
+
 a:focus-visible {
 	outline-color: var(--color-secondaryForeground);
 }
@@ -46,10 +50,6 @@ a {
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: center;
 	min-height: 100vh;
 	margin-inline: auto;
 	margin-block: auto;
