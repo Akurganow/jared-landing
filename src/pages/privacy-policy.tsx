@@ -7,7 +7,6 @@ interface PrivacyPolicyQueryData {
 	markdownRemark: {
 		html: string
 		frontmatter: {
-			title: string
 			date: string
 		}
 	}
@@ -31,7 +30,6 @@ export const query = graphql`
     markdownRemark(fileAbsolutePath: { regex: "/src/content/privacy-policy.md/" }) {
       html
       frontmatter {
-        title
         date
       }
     }

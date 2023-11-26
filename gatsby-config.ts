@@ -1,6 +1,9 @@
 import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
+  flags: {
+    PARALLEL_QUERY_RUNNING: true
+  },
   siteMetadata: {
     title: 'Jared Landing',
     siteUrl: 'https://jared-web-extension.netlify.app/'
