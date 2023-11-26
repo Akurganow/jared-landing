@@ -1,6 +1,32 @@
 @import './default-light-theme.css';
 @import './default-dark-theme.css';
 
+:root {
+	--basic-fontSize: 13px;
+	--basic-layout-gap: 0.5rem;
+}
+
+body {
+	min-height: 100%;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: var(--basic-fontSize);
+	line-height: 1.4;
+	background-color: var(--area-page-background);
+	color: var(--area-page-foreground);
+}
+
+p, figure, blockquote, dl, dd {
+	margin-block: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-block-end: 1em;
+}
+
+a:focus-visible,
+button:focus-visible {
+	outline-color: var(--color-secondaryForeground);
+}
+
 a {
 	color: var(--color-secondaryForeground);
 	text-decoration: underline;
@@ -35,44 +61,4 @@ h2 + p {
 		margin-inline: 2rem;
 		margin-block: 1rem;
 	}
-}
-
-:root {
-	--basic-fontSize: 13px;
-	--basic-layout-gap: 0.5rem;
-}
-
-body {
-	min-height: 100%;
-	font-family: 'JetBrains Mono', monospace;
-	font-size: var(--basic-fontSize);
-	line-height: 1.4;
-	background-color: var(--area-page-background);
-	color: var(--area-page-foreground);
-}
-
-#root,
-#popup {
-	display: contents;
-}
-
-a {
-	color: var(--area-page-foreground);
-	text-decoration: none;
-}
-
-a:hover {
-	color: var(--area-page-hoverForeground);
-}
-
-p, figure, blockquote, dl, dd {
-	margin-block: 1em;
-}
-h1, h2, h3, h4, h5, h6 {
-	margin-block-end: 1em;
-}
-
-a:focus-visible,
-button:focus-visible {
-	outline-color: transparent;
 }
