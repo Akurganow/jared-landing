@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link, HeadFC, PageProps } from 'gatsby'
-import '../styles/common.css'
 
 const codeStyles = {
 	color: '#8A6534',

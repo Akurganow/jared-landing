@@ -1,4 +1,3 @@
-import 'modern-css-reset'
 import React from 'react'
 import { HeadFC, PageProps } from 'gatsby'
 import CommonHead from '../components/CommonHead'

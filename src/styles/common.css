@@ -1,3 +1,4 @@
+@import 'modern-css-reset/dist/reset.min.css';
 @import './default-light-theme.css';
 @import './default-dark-theme.css';
 
@@ -20,7 +21,7 @@ p, figure, blockquote, dl, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin-block-end: 1em;
+	margin-block: 1em;
 }
 
 h1 + p {
