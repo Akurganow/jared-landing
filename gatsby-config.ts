@@ -1,9 +1,6 @@
 import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
-  flags: {
-    PARALLEL_QUERY_RUNNING: true
-  },
   siteMetadata: {
     title: 'Jared Landing',
     siteUrl: 'https://jared-web-extension.netlify.app/'
@@ -37,15 +34,6 @@ const config: GatsbyConfig = {
       },
       __key: 'pages'
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        'name': 'content',
-        'path': './src/content/'
-      },
-      __key: 'content'
-    },
-    { resolve: `gatsby-transformer-remark` },
   ]
 }
 
