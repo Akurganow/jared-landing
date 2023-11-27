@@ -27,7 +27,7 @@ const EmojiList: React.FC<EmojiListProps> = ({ items }) => {
 
 	return <>
 		<style>{
-			`@counter-style repeating-emoji { symbols: ${emojis.map(emoji => `"\\${emoji}"`).join(' ')}; suffix: " "; } .emoji-list { list-style-type: repeating-emoji; }`
+			`@counter-style emoji { symbols: ${emojis.map(emoji => `"\\${emoji}"`).join(' ')}; suffix: " "; } .emoji-list { list-style-type: emoji; }`
 		}</style>
 		<ul className="emoji-list">
 			{items.map((item, index) => (
