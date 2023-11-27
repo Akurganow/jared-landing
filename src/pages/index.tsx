@@ -5,9 +5,9 @@ import type { HeadFC, PageProps } from 'gatsby'
 
 const getCurrentHourClockEmoji = (): string => {
 	const hour = new Date().getHours()
-	const hourMod = hour % 12
+	const hour12 = hour > 11 ? hour - 12 : hour
 
-	switch (hourMod) {
+	switch (hour12) {
 	case 0: return '🕛'
 	case 1: return '🕐'
 	case 2: return '🕑'
