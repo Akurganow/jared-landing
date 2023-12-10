@@ -1,10 +1,10 @@
+import {emojiListItems} from "../utils/emoji";
 ---
 title: 'Jared Web Extension'
 ---
 
 import { SEO } from "../components/SEO"
 import EmojiList from '../components/EmojiList'
-import { emojiListItems } from '../constants/home'
 
 export function Head() {
 	return <SEO />
@@ -18,7 +18,7 @@ Say goodbye to the mundane new tab page. Introducing **[Jared](https://chrome.go
 
 🔥 **Features at a Glance:**
 
-<EmojiList items={emojiListItems} />
+<EmojiList items={homePageItems} />
 
 🔗 Ready to upgrade your browsing? [Get Jared now on the Chrome Web Store!](https://chrome.google.com/webstore/detail/jared/aafbpehebcbadcpmmmkjgednfoojpifa)
 
